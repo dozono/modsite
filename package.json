@@ -17,6 +17,8 @@
     "@vueuse/head": "^0.7.5",
     "nprogress": "^0.2.0",
     "pinia": "^2.0.13",
+    "primeicons": "^5.0.0",
+    "primevue": "^3.12.4",
     "prism-theme-vars": "^0.2.2",
     "vue": "^3.2.31",
     "vue-demi": "^0.12.5",

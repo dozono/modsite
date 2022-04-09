@@ -22,6 +22,8 @@ specifiers:
   nprogress: ^0.2.0
   pinia: ^2.0.13
   pnpm: ^6.32.4
+  primeicons: ^5.0.0
+  primevue: ^3.12.4
   prism-theme-vars: ^0.2.2
   typescript: ^4.6.3
   unocss: ^0.30.11
@@ -47,6 +49,8 @@ dependencies:
   '@vueuse/head': 0.7.5_vue@3.2.31
   nprogress: 0.2.0
   pinia: 2.0.13_typescript@4.6.3+vue@3.2.31
+  primeicons: 5.0.0
+  primevue: 3.12.4_primeicons@5.0.0+vue@3.2.31
   prism-theme-vars: 0.2.2
   vue: 3.2.31
   vue-demi: 0.12.5_vue@3.2.31
@@ -5787,6 +5791,20 @@ packages:
     resolution: {integrity: sha512-FFw039TmrBqFK8ma/7OL3sDz/VytdtJr044/QUJtH0wK9lb9jLq9tJyIxUwtQJHwar2BqtiA4iCWSwo9JLkzFg==}
     engines: {node: '>=6'}
     dev: true
+
+  /primeicons/5.0.0:
+    resolution: {integrity: sha512-heygWF0X5HFI1otlZE62pp6ye7sZ8om78J9au2BRkg8O7Y8AHTZ9qKMRzchZUHLe8zUAvdi6hZzzm9XxgwIExw==}
+    dev: false
+
+  /primevue/3.12.4_primeicons@5.0.0+vue@3.2.31:
+    resolution: {integrity: sha512-+YUQYIFMtDA8Gv7KTvM9yWLJUOtxtvy0HTVsf1xDOvvnRvHcICZG5vl3MEa1zBAoEpcCf1sKuN3FoH6IK5ZOpQ==}
+    peerDependencies:
+      primeicons: ^5.0.0
+      vue: ^3.0.0
+    dependencies:
+      primeicons: 5.0.0
+      vue: 3.2.31
+    dev: false
 
   /prism-theme-vars/0.2.2:
     resolution: {integrity: sha512-EL9ifuU/F8tEldoCa2sspiiLWysCL54xDbf2gN/ubwdtbuJROqOGopG5kSwunapwaioT+jLUQ/Ky+7jnv62xJA==}

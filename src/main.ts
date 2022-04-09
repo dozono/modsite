@@ -6,6 +6,9 @@ import App from './App.vue'
 import '@unocss/reset/tailwind.css'
 import './styles/main.css'
 import 'uno.css'
+import 'primevue/resources/primevue.min.css'
+import 'primeicons/primeicons.css'
+// import 'primevue/resources/themes/arya-orange/theme.css'
 
 const routes = setupLayouts(generatedRoutes)
 

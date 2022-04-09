@@ -9,6 +9,12 @@
   width: 100%;
 }
 
+html:not(.dark) {
+}
+
+html.dark {
+}
+
 html:not(.dark) .prose {
   --prism-foreground: #393a34;
   --prism-background: #fbfbfb;
